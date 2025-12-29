@@ -23,7 +23,7 @@ function App() {
       {/* Top Left Profile Picture */}
       <div className="fixed top-6 left-6 z-50">
         <img
-          src="profile.png"
+          src="/profile.png"
           alt="Anthony Otoide"
           className="w-20 h-22 rounded-full border-2 border-gray-300 shadow-md object-cover hover:scale-105 transition-transform"
         />
@@ -44,7 +44,7 @@ function App() {
               remote sensing, and real world problem solving.
             </p>
 
-<div className="flex gap-4"> <a href="Anthony_Otoide_Co_op_Resume (1).pdf" 
+<div className="flex gap-4"> <a href="/Anthony_Otoide_Co_op_Resume (1).pdf" 
 className="flex items-center gap-2 px-4 py-2 border border-gray-300 rounded-lg text-sm text-gray-700 hover:bg-gray-100 transition" >
    <FileText className="w-4 h-4" /> Resume  </a>
             </div>
