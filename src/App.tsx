@@ -10,7 +10,7 @@ function App() {
     
     
 <div className="min-h-screen bg-gray-50">
-  <section id="home" className="min-h-screen flex items-center justify-center p-4 bg-cover bg-no-repeat bg-center" style={{ backgroundImage: 'url("src/engineering-background-5u1vmh4f67lgz4uf.jpg")' }}>
+  <section id="home" className="min-h-screen flex items-center justify-center p-4 bg-cover bg-no-repeat bg-center" style={{ backgroundImage: 'url("/engineering-background-5u1vmh4f67lgz4uf.jpg")' }}>
     <div className="relative">
           <div
             onClick={() => scrollToSection('projects')}
@@ -23,7 +23,7 @@ function App() {
       {/* Top Left Profile Picture */}
       <div className="fixed top-6 left-6 z-50">
         <img
-          src="src/profile.png"
+          src="/profile.png"
           alt="Anthony Otoide"
           className="w-20 h-22 rounded-full border-2 border-gray-300 shadow-md object-cover hover:scale-105 transition-transform"
         />
@@ -44,7 +44,7 @@ function App() {
               remote sensing, and real world problem solving.
             </p>
 
-<div className="flex gap-4"> <a href="src/Anthony_Otoide_Co_op_Resume (1).pdf" 
+<div className="flex gap-4"> <a href="/Anthony_Otoide_Co_op_Resume (1).pdf" 
 className="flex items-center gap-2 px-4 py-2 border border-gray-300 rounded-lg text-sm text-gray-700 hover:bg-gray-100 transition" >
    <FileText className="w-4 h-4" /> Resume  </a>
             </div>
@@ -75,19 +75,19 @@ className="flex items-center gap-2 px-4 py-2 border border-gray-300 rounded-lg t
               <h3 className="text-xl font-semibold text-gray-800 mb-2">Chess Engine</h3>
               <p className="text-gray-600 mb-2">A full working and functional chess engine with move validation and game state management</p>
               <p className="text-sm text-gray-500">Pygame • Chess • Tkinter • Python</p>
-              <img src="src/piotr-makowski-27LH_0jXKYI-unsplash.jpg" alt="Chess Engine" width="128" height="128"></img>
+              <img src="/piotr-makowski-27LH_0jXKYI-unsplash.jpg" alt="Chess Engine" width="128" height="128"></img>
             </div>
             <div className="border-l-4 border-gray-300 pl-6 py-4">
               <h3 className="text-xl font-semibold text-gray-800 mb-2">Smart Water Quality Monitor</h3>
               <p className="text-gray-600 mb-2">A low cost smart water quality monitoring system that measures PH value, Water Turbidity and temperature</p>
               <p className="text-sm text-gray-500">Embedded Systems • C • Python • esp32</p>
-              <img src="src/61RQtPMUFDL._AC_SX679_.jpg" alt="water pollution tester" width="128" height="128"></img>
+              <img src="/61RQtPMUFDL._AC_SX679_.jpg" alt="water pollution tester" width="128" height="128"></img>
             </div>
             <div className="border-l-4 border-gray-300 pl-6 py-4">
               <h3 className="text-xl font-semibold text-gray-800 mb-2">Digital Clock on FPGA</h3>
               <p className="text-gray-600 mb-2"> Designed and implemented a full digital clock using Verilog, including hours, minutes, and seconds, with FSM-based timing logic and clock division.<br/></p>
               <p className="text-sm text-gray-500">Verilog • FPGA</p>
-              <img src="src/OIP (1).webp" alt="Clock" width="128" height="128"></img>
+              <img src="/OIP (1).webp" alt="Clock" width="128" height="128"></img>
             </div>
           </div>
           <button
